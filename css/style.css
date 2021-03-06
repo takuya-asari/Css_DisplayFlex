@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* 親要素 */
+.box-area{
+  display: flex; /* 横並び */
+  align-items: center;/* 真ん中揃え */
+  justify-content: center;/* 画面に対して真ん中揃え */
+}
+
+.box{
+  width: 200px;
+}
+
+.blue{
+  background-color: rgb(0, 38, 255);
+  height: 100px;
+}
+
+.green{
+  background-color: rgb(0, 255, 76);
+  height: 300px;
+}
+
+.red{
+  background-color: rgb(255, 0, 98);
+  height: 200px;
+}
